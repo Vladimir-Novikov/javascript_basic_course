@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 768px;
+    background: linear-gradient(0deg, 
+    #EBF3FB 8.84%, 
+    rgba(152, 195, 232, 0) 31.12%);
+}
+
+.top{
+    margin-top: 50px;
+    display: flex;
+    height: 150px;
+    border: 1px solid black;
+    justify-content:space-around;
+}
+
+.basket{
+    width: 500px;
+    height: 100px;
+    margin-top: 22px;
+    margin-left: 250px;
+    font-size: 25px;
+    text-align: center;
+    word-wrap:normal;
+    line-height: 20px;
+}
+
+.logo{
+    width: 150px;
+    width: 300px;
+    height: 100px;
+    margin-top: 22px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 20px;
+}
