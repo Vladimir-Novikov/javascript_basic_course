@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo{
+    width: 150px;
+    width: 500px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.basket{
+    width: 150px;
+    width: 500px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content{
+    background: linear-gradient(0deg, 
+    #EBF3FB 8.84%, 
+    rgba(152, 195, 232, 0) 31.12%);
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ 
+.block{
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 350px;
+    border: 1px solid #000;
+    padding: 10px;
+    position: relative;
+}
+
+.cardImg{
+    width: 100px;
+    height: 100px;
+}
+
+.button{
+    position: absolute;
+    width: 178px;
+    height: 32px;
+    font-size: 25px;
+    text-align: center;
+    background:darkgoldenrod;
+    bottom: 10px;
+}
+
+.price{
+    /* text-align: center; */
+    font-size: 25px;
+    /* padding-top: 15px; */
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+}
+
+.mouseOnButton{
+    background: coral;
+}
+
+.bigImage{
+    margin-top: 15px;
+    padding-left: 40px;
+    height: 300px; 
+}
+
+#basketPopup {
+    width: 70%;
+    background: #EEE;
+    position: absolute;
+    top: 70px;
+    left: 65px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px #555;
+    display: none;
+}
+
+.closePopup{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    border: none;
+    font-size: 20px;
+}
+
+.plusMinus{
+    font-size: 25px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.bottomButton{
+    position: absolute;
+    bottom: 10px;
+    right:  50px; 
+    color: red;
+    border: none;
+    font-size: 25px;
+}
+
+ #deliveryPopup {
+    width: 50%;
+    background: #EEE;
+    position: absolute;
+    top: 70px;
+    left: 65px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px #555;
+    display: none;
+}
+
+.popupHeading{
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.submitButton{
+    margin: 15px;
+    font-size: 20px;
+}
+
+#commentsPopup {
+    width: 50%;
+    background: #EEE;
+    position: absolute;
+    top: 70px;
+    left: 65px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px #555;
+    display: none;
+}
